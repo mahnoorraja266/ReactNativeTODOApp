@@ -1,0 +1,86 @@
+# --- Expo & React Native ---
+.expo/
+dist/
+web-build/
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+package-lock.json.log
+yarn.lock.log
+
+# --- Native Builds & Bundles ---
+*.jsbundle
+*.ipa
+*.apk
+*.aar
+*.a
+*.o
+*.obj
+*.dylib
+*.so
+*.class
+*.dex
+*.pyc
+*.swp
+
+# --- Android Specifics ---
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# --- iOS Specifics ---
+ios/build/
+ios/Pods/
+ios/.xcode.env.local
+*.xcworkspace
+*.xcodeproj
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# --- Editor / IDE Configs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- OS Specifics ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.pem
+
+# --- Debug & Logs ---
+logs
+*.log
+cov*/
+.nyc_output/
+.tsbuildinfo
+.metro-health-check*
+
